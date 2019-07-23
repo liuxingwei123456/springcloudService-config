@@ -2,12 +2,14 @@ spring:
   profiles:
     active:
     - dev
-    
+ 
+   
 ---
 spring:
   profiles: dev
   application:
     name: springcloudService-config-atguigu-dev
+
 
 ---
 spring:
