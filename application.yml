@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active:
+    - dev
+    
+---
+spring:
+  profiles: dev
+  application:
+    name: springcloudService-config-atguigu-dev
+
+---
+spring:
+  profiles: test
+  application:
+    name: springcloudService-config-atguigu-test
+    
+#utf-8保存
